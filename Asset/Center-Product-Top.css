@@ -1,0 +1,67 @@
+.container-collection{
+    background-image: url(../IMG/Capture_1_5_3_1400.jpg);
+    text-align: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 12rem 0px;
+}
+.container-dropdowns-select{
+    display: flex;
+    justify-content: center;
+}
+.container-dropdowns-select div{
+    padding: 30px 4rem;
+}
+.collection-dropdowns__item{
+    text-align: center;
+    padding: 20px;
+}
+.product{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4 , 300px);
+    padding: 60px;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    font-family: 'Roboto Condensed';
+}
+.product a{
+    text-decoration: none;
+    color: black;
+}
+.product-title{
+    font-weight: 700px;
+    font-size: 21px;
+}
+.card-effect{
+    height: 300px;
+    width: 300px;
+}
+.card-title{
+    padding-top: 2rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+/*EFFECT*/
+
+.effect{
+    transition: all 1s;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-back{
+    transform: rotateY(180deg);
+}
+
+
+.card-effect:hover .card-front{
+    transform: rotateY(-180deg);
+}
+
+.card-effect:hover .card-back{
+    transform: rotateY(0);
+}
+/*EFFECT*/

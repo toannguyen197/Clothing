@@ -1,0 +1,35 @@
+.center-title{
+    text-align: center;
+}
+.center-content{
+    padding: 0rem 4rem 4rem 4rem;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3 , 420px);
+    grid-column-gap: 4rem;
+    grid-row-gap: 3rem;
+    font-family: 'Roboto';
+}
+.container-content{
+    width: 450px;
+}
+.container-content h3{
+    font-style: italic;
+    font-size: 24px;
+}
+.container-content a{
+    text-decoration: none;
+    color: black;
+}
+.container-content img{
+    padding-top: 6rem;
+    height: 250px;
+    width: 420px;
+}
+.container-content:hover{
+    border-radius: 15px 15px;
+    box-shadow: 3px 3px 5px black;
+    background-color: #2c3e50;
+    transition: 1s;
+}
